@@ -1,27 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "name": "Estify AI",
+  "projectType": "saas",
+  "projectName": "Estify AI",
+  "projectDescription": "AI-powered real estate property valuation platform that delivers precise, appraiser-verified property reports using machine learning, big data from 76 sources, and expert knowledge.",
   "theme": "almond",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      { "label": "Support", "href": "mailto:hello@estify.ai" }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Get a Valuation",
-      "href": "https://estify.ai"
-    }
-  },
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -92,9 +76,21 @@
       }
     ]
   },
-  "footer": {
-    "socials": {
-      "linkedin": "https://linkedin.com/company/estify-ai"
-    }
-  }
+  "keyFeatures": [
+    "AI-powered property valuation accurate to within 2.3%",
+    "Data aggregation from 76 sources including market, legal, and spatial data",
+    "Price forecasts up to 20 quarters into the future",
+    "Investment analysis with ROI, ROE, and sensitivity analysis",
+    "Legal verification of Land and Mortgage Register (Księga Wieczysta)",
+    "Environmental risk assessment (floods, noise, air quality)",
+    "Reports verified by certified appraisers",
+    "Next-day report delivery by email",
+    "Two plan tiers: Basic and Pro"
+  ],
+  "publicApiSurface": [
+    "Property valuation form (30 fields: address, floor area, rooms, floor, building type, condition, amenities, window orientation, parking, heating, Land Register number)",
+    "Basic report — concise market summary, basic spatial/legal/investment analysis, basic forecasts",
+    "Pro report — full comprehensive report with charts, extended market/legal/investment analysis, extended price forecasts, decision-support tool",
+    "Payment methods: BLIK, bank transfers, credit cards, Apple Pay, Google Pay, PayPal, installments (Tpay)"
+  ]
 }
